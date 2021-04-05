@@ -15,14 +15,13 @@ public class GradleSampleApplication {
 
 	public static void main(String[] args) {
 		SpringApplication app = new SpringApplication(GradleSampleApplication.class);
-		app.setWebApplicationType(WebApplicationType.NONE);
 		app.addListeners(new ApplicationContextInitializedEventListner());
 		app.addListeners(new ApplicationEnvironmentPreparedEventListner());
 		app.addListeners(new ApplicationFailedEventListner());
-		app.addListeners(new ApplicationPreparedEventListner());
+		app.addListeners(new ApplicationPreparedEventListner());	
 		app.addListeners(new ApplicationStartingEventListner());
+		app.setWebApplicationType(WebApplicationType.NONE);
 		app.run(args);
-
 	}
 
 }
