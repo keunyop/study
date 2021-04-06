@@ -14,6 +14,8 @@ import kevin.springboot.sample.eventlistener.ApplicationStartingEventListner;
 public class GradleSampleApplication {
 
 	public static void main(String[] args) {
+//		SpringApplication.run(GradleSampleApplication.class, args);
+		
 		SpringApplication app = new SpringApplication(GradleSampleApplication.class);
 		app.addListeners(new ApplicationContextInitializedEventListner());
 		app.addListeners(new ApplicationEnvironmentPreparedEventListner());

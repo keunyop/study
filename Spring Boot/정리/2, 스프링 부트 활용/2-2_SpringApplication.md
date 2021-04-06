@@ -148,7 +148,7 @@ Applicaion 기동 시 사용할 수 있는 arguments 2가지 방법
 - Program arguments : --로 시작하는 option
 - JVM arguments : -D로 시작하는 option 예) -Ddata_source=java:comp/env/jdbc/pfDistDB
 
-![args](./assets/img/args.png)
+![args](../../assets/img/args.png)
 
 ```java
 @Component
