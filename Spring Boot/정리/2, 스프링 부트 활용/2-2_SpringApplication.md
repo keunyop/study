@@ -18,8 +18,8 @@ public class PfApplication {
 public class PfApplication {
 	public static void main(String[] args) {
 		SpringApplication pfApp = new SpringApplication(PfApplication.class); 
-        // pfApp.setWebApplicationType(WebApplicationType.NONE);
-        pfApp.run(args);
+        	// pfApp.setWebApplicationType(WebApplicationType.NONE);
+        	pfApp.run(args);
 	}
 }
 ```
