@@ -11,6 +11,6 @@ public class ArgumentTest {
 		System.out.println(">> programArgs: " + args.containsOption("programArgs"));
 		System.out.println(">> vmArgs: " + args.containsOption("vmArgs"));
 		
-//		System.out.println(">> " + System.getProperty("data_source"));
+		System.out.println(">> " + System.getProperty("data_source"));
 	}
 }

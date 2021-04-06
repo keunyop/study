@@ -1,11 +1,19 @@
-
- ________     ___    ___             ________  ________ 
-|\   __  \   |\  \  /  /|           |\   __  \|\  _____\
-\ \  \|\ /_  \ \  \/  / /___________\ \  \|\  \ \  \__/ 
- \ \   __  \  \ \    / /\____________\ \   ____\ \   __\
-  \ \  \|\  \  /     \/\|____________|\ \  \___|\ \  \_|
-   \ \_______\/  /\   \                \ \__\    \ \__\ 
-    \|_______/__/ /\ __\                \|__|     \|__| 
-             |__|/ \|__|                                
-             
+                                                                                                    
+BBBBBBBBBBBBBBBBB   XXXXXXX       XXXXXXX                 PPPPPPPPPPPPPPPPP   FFFFFFFFFFFFFFFFFFFFFF
+B::::::::::::::::B  X:::::X       X:::::X                 P::::::::::::::::P  F::::::::::::::::::::F
+B::::::BBBBBB:::::B X:::::X       X:::::X                 P::::::PPPPPP:::::P F::::::::::::::::::::F
+BB:::::B     B:::::BX::::::X     X::::::X                 PP:::::P     P:::::PFF::::::FFFFFFFFF::::F
+  B::::B     B:::::BXXX:::::X   X:::::XXX                   P::::P     P:::::P  F:::::F       FFFFFF
+  B::::B     B:::::B   X:::::X X:::::X                      P::::P     P:::::P  F:::::F             
+  B::::BBBBBB:::::B     X:::::X:::::X                       P::::PPPPPP:::::P   F::::::FFFFFFFFFF   
+  B:::::::::::::BB       X:::::::::X      ---------------   P:::::::::::::PP    F:::::::::::::::F   
+  B::::BBBBBB:::::B      X:::::::::X      -:::::::::::::-   P::::PPPPPPPPP      F:::::::::::::::F   
+  B::::B     B:::::B    X:::::X:::::X     ---------------   P::::P              F::::::FFFFFFFFFF   
+  B::::B     B:::::B   X:::::X X:::::X                      P::::P              F:::::F             
+  B::::B     B:::::BXXX:::::X   X:::::XXX                   P::::P              F:::::F             
+BB:::::BBBBBB::::::BX::::::X     X::::::X                 PP::::::PP          FF:::::::FF           
+B:::::::::::::::::B X:::::X       X:::::X                 P::::::::P          F::::::::FF           
+B::::::::::::::::B  X:::::X       X:::::X                 P::::::::P          F::::::::FF           
+BBBBBBBBBBBBBBBBB   XXXXXXX       XXXXXXX                 PPPPPPPPPP          FFFFFFFFFFF           
+                                                                                                    
 ${AnsiColor.BRIGHT_GREEN}:: Spring Boot ::${AnsiColor.DEFAULT}${spring-boot.formatted-version}
