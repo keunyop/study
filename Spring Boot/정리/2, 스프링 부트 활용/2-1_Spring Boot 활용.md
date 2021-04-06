@@ -7,7 +7,7 @@
 
 ### 스프링 부트 핵심 기능
 
-- SpringApplication
+- [SpringApplication](./2-2_SpringApplication)
 - 외부 설정
 - 프로파일
 - 로깅
