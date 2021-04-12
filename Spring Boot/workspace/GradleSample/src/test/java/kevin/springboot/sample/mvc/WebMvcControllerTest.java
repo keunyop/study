@@ -8,7 +8,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
@@ -16,26 +16,26 @@ import org.springframework.http.MediaType;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 
-//@RunWith(SpringRunner.class)
-//@WebMvcTest(WebMvcController.class)
+@RunWith(SpringRunner.class)
+@WebMvcTest(WebMvcController.class)
 public class WebMvcControllerTest {
 
-//	@Autowired
-//	MockMvc mockMvc;
-//
-//	@Test
-//	public void hello() throws Exception {
-//		mockMvc.perform(get("/hello")).andExpect(status().isOk()).andExpect(content().string("Hello, WebMvc"));
-//	}
-//
-//	@Test
-//	public void createUser_JSON() throws Exception {
-//
-//		String userJson = "{\"id\":\"kevin\", \"name\":\"keunyop\"";
-//
-//		mockMvc.perform(post("/users/create").contentType(MediaType.APPLICATION_JSON).accept(MediaType.APPLICATION_JSON)
-//				.content(userJson)).andExpect(jsonPath("$.id", is(equalTo("kevin"))))
-//				.andExpect(jsonPath("$.name", is(equalTo("keunyop"))));
-//	}
+	@Autowired
+	MockMvc mockMvc;
+
+	@Test
+	public void hello() throws Exception {
+		mockMvc.perform(get("/hello")).andExpect(status().isOk()).andExpect(content().string("Hello, WebMvc"));
+	}
+
+	@Test
+	public void createUser_JSON() throws Exception {
+
+		String userJson = "{\"id\":\"kevin\", \"name\":\"keunyop\"";
+
+		mockMvc.perform(post("/users/create").contentType(MediaType.APPLICATION_JSON).accept(MediaType.APPLICATION_JSON)
+				.content(userJson)).andExpect(jsonPath("$.id", is(equalTo("kevin"))))
+				.andExpect(jsonPath("$.name", is(equalTo("keunyop"))));
+	}
 
 }
