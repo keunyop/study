@@ -7,5 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class GradleSampleApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(GradleSampleApplication.class, args);
+
+//		SpringApplication app = new SpringApplication();
+//		app.setWebApplicationType(WebApplicationType.NONE);
 	}
 }
