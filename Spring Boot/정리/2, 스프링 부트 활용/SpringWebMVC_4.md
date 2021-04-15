@@ -20,7 +20,6 @@ Application.yml에서 경로를 변경할 수 있다.
 > - spring.mvc.static-locations: 리소스 찾을 위치 변경 가능
 
 - Last-Modified 헤더를 보고 304 응답을 보냄.
-- ResourceHttpRequestHandler가 처리함.
 
 WebMvcConfigurer의 addRersourceHandlers로 커스터마이징 할 수 있음
 
