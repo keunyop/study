@@ -32,7 +32,3 @@
 - @EnableJpaRepositories (스프링 부트 자동으로 설정)
 
 - Spring Data JPA -> JPA -> Hibernate -> JDBC -> Datasource
-
-```gradle
-implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
-```

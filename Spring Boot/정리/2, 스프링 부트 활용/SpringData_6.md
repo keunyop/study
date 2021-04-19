@@ -2,11 +2,8 @@
 
 ### 스프링 데이터 JPA 의존성 추가
 
-```xml
-<dependency>
-   <groupId>org.springframework.boot</groupId>
-   <artifactId>spring-boot-starter-data-jpa</artifactId>
-</dependency>
+```gradle
+implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 ```
 
 ### 스프링 데이터 JPA 사용하기
