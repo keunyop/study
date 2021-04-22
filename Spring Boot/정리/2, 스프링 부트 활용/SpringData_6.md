@@ -23,5 +23,5 @@ testCompile 'com.h2database:h2'
 - @DataJpaTest (슬라이스 테스트) 작성
 
 > : 해당 Reopository와 관련된 bean 들만 등록을 해서 테스트를 만드는 것
-
-- @SpringBootTest는 통합 테스트
+>
+> ※ @SpringBootTest는 통합 테스트
