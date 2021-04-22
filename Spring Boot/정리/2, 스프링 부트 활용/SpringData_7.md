@@ -4,7 +4,7 @@
 
 - spring.jpa.hibernate.ddl-auto
 
-- spring.jpa.generate-dll=true로 설정 해줘야 동작함.
+- spring.jpa.generate-dll=true로 설정해 줘야 동작함.
 
 ### SQL 스크립트를 사용한 데이터베이스 초기화
 
@@ -12,4 +12,4 @@
 
 - data.sql 또는 data-${platform}.sql
 
-- ${platform} 값은 spring.datasource.platform 으로 설정 가능.
+- ${platform} 값은 spring.datasource.platform으로 설정 가능.
