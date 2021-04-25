@@ -41,5 +41,11 @@ class AccountRepositoryTest {
 		Account notExistingAccount = accountRepository.findByUsername("dummy");
 		assertThat(notExistingAccount).isNull();
 	}
+	
+	@Test
+	void checkAdmin() {
+		Account adminAccount = accountRepository.findByUsername("admin");
+		assertThat(adminAccount).isNotNull();
+	}
 
 }

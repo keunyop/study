@@ -1,0 +1,1 @@
+insert into account (password, username, id) values ('admin', 'admin', '123')
