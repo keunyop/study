@@ -10,6 +10,8 @@ implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 
 - @Entity 클래스 만들기
 
+> Entity란 테이블에 대응하는 하나의 클래스
+
 - Repository 만들기
 
 ### 스프링 데이터 리파지토리 테스트 만들기
