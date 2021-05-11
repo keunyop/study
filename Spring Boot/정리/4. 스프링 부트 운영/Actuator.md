@@ -22,3 +22,23 @@ https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#production
 - 활성화와 Endpoints를 공개하는 것은 따로 설정이 되어있음
 - 활성화 여부는 Endpoint enabled로 관리
 - 기본적으로 shutdown 빼고는 전부 enabled=true로 설정되어 있음
+
+## 스프링 부트 어드민
+
+https://github.com/codecentric/spring-boot-admin
+
+- 스프링 진영에서 제공하는 프로젝트가 아닌 개인이 오픈소스로 제공하는 애플리케이션
+
+- 설정한 스프링 부트 Actuator 정보를 확인할 수있는 툴
+
+### 의존성
+
+```java
+// 어드민 서버
+implementation 'de.codecentric:spring-boot-admin-starter-server'
+```
+
+```java
+// 어드민 클라이언트
+implementation 'de.codecentric:spring-boot-admin-starter-client'
+```
